@@ -1,0 +1,43 @@
+<!--a) Progrma que ler um número, calcula e informa o dobro desse número.-->
+
+<script>
+    var num= prompt();
+    var dobro= num * 2;
+    alert("O dobro do número é:" + dobro);
+</script>
+
+
+<!--b) Programa que ler dois números, calcula e informa a soma desses números. Na realização da adição, teremos que converter o texto para número, para não ocorrer o problema de concatenação.-->
+
+<script>
+    var num1= Number(prompt("1° número é: "));
+    var num2= Number(prompt("2° número é: "));
+    var soma= num1 + num2;
+    alert("A soma dos dois números é: " + soma);
+    
+</script>
+
+
+
+<!-- c) Um programa que que leia o valor do jantar, calcule e informe o valor da taxa do garçon (10%) e o valor total a ser pago. O método "tofixed(2)" é adicionado às variáveis de saída, ele serve para indicar que o valor a ser apresentado deve contar 2 casas decimais.-->
+
+<script>
+    var jantar= Number(prompt("Valor do jantar: "));
+    var garcom= jantar * 0.10;
+    var total= jantar + garcom;
+    alert("Taxa Garçom R$: " + garcom.toFixed(2) + "\ntotal R$: " + total.toFixed(2));
+
+
+</script>
+
+
+<!--d) Elaborar um programa que leia a duração de uma viagem em dias e horas. Calcule e informe a duração total da viagem em número de horas.-->
+
+<meta charset="UTF-8">
+<script>
+    var dias= Number(prompt("Quantos dias de viagem? : "));
+    var horas=Number(prompt("Quantas horas de Viagem? : "));
+    var total= (dias * 24) + horas;
+    alert("Total de horas é: " + total);
+
+</script>
